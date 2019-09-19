@@ -4,7 +4,8 @@
   "description": "Simple project to learn tests with jest and a bit of canvas work",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "testWatch": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sagivStekolshik/Game-Of-Life-With-Tests/issues"
   },
-  "homepage": "https://github.com/sagivStekolshik/Game-Of-Life-With-Tests#readme"
+  "homepage": "https://github.com/sagivStekolshik/Game-Of-Life-With-Tests#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
